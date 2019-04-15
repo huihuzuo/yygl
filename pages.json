@@ -1,0 +1,349 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages		
+        {
+            "path" : "pages/index/index",
+            "style" : {}
+        },
+        {
+            //"path" : "pages/dailyMaintenance/performanceCheck/performanceCheck",
+			"path" : "pages/dailyMaintenance/performanceCheck/formCheckList/formCheckList",
+            "style" : {}
+        },
+		{
+		    "path" : "pages/dailyMaintenance/maintenancePatrol/maintenancePatrol",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/dailyMaintenance/maintenancePatrol/roadSetting/roadSetting",
+		    "style" : {}
+		},		
+		{
+		    "path" : "pages/dailyMaintenance/dailyCleaning/dailyCleaning",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/dailyMaintenance/eventCleaning/eventCleaning",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/dailyMaintenance/greenConservation/greenConservation",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/dailyMaintenance/performanceCheck/formCheckList/specificCheckForm/builderUnit/builderUnitList",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/dailyMaintenance/performanceCheck/formCheckList/specificCheckForm/builderUnit/editBuilderUnit",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/dailyMaintenance/performanceCheck/formCheckList/specificCheckForm/builderUnit/detailBuilderUnit",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/dailyMaintenance/performanceCheck/formCheckList/specificCheckForm/builderUnit/addBuilderUnit",
+		    "style" : {}
+		},		
+		{
+		    "path" : "pages/dailyMaintenance/performanceCheck/formCheckList/specificCheckForm/readyEnterArea/readyEnterAreaList",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/dailyMaintenance/performanceCheck/formCheckList/specificCheckForm/readyEnterArea/addJczb",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/dailyMaintenance/performanceCheck/formCheckList/specificCheckForm/readyEnterArea/editJczb",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/dailyMaintenance/performanceCheck/formCheckList/specificCheckForm/readyEnterArea/detailJczb",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/dailyMaintenance/maintenancePatrol/checkReport/map-checkreport",
+		    "style" : {}
+		},
+// 		{
+// 		    "path" : "pages/dailyMaintenance/maintenancePatrol/checkSetting/checkSetting",
+// 		    "style" : {}
+// 		},
+		{
+		    "path" : "pages/dailyMaintenance/maintenancePatrol/checkReport/reportEvent/reportEvent",
+		    "style" : {}
+		},
+		// 专项养护
+		{
+		    "path" : "pages/specialMaintenance/performanceCheck/formCheckList/formCheckList",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/specialMaintenance/performanceCheck/formCheckList/specificCheckForm/builderUnit",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/specialMaintenance/performanceCheck/formCheckList/specificCheckForm/readyEnterArea",
+		    "style" : {}
+		},
+				
+		//小修任务
+		{
+		    "path" : "pages/dailyMaintenance/minorTask/miniTaskList/miniTaskList",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/dailyMaintenance/minorTask/miniTaskList/specificTask/buildPhotos",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/dailyMaintenance/minorTask/miniTaskList/specificTask/myTask",
+		    "style" : {}
+		},
+		// 日常清扫
+		{
+		    "path" : "pages/dailyMaintenance/dailyCleaning/cleanSetting/cleanSetting",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/dailyMaintenance/dailyCleaning/endCleaning",
+		    "style" : {}
+		},
+		//事件清扫
+		{
+		    "path" : "pages/dailyMaintenance/eventCleaning/cleanSetting/cleanSetting",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/dailyMaintenance/eventCleaning/arrival/arrival",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/dailyMaintenance/eventCleaning/endCleaning",
+		    "style" : {}
+		},
+		// 绿化养护
+		{
+		    "path" : "pages/dailyMaintenance/greenConservation/greenSetting/greenSetting",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/dailyMaintenance/greenConservation/endGreen",
+		    "style" : {}
+		},
+		// 设备巡检
+		{
+		    "path" : "pages/electromechanicalMaintenance/equipmentInspection/equipmentInspection",
+		    "style" : {}
+		},
+		// 设备巡检的编辑页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/equipmentInspection/editEquipmentInspection/editEquipmentInspection",
+		    "style" : {}
+		},
+		// 增加检查项页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/equipmentInspection/addPage/addPage",
+		    "style" : {}
+		},
+		
+		// 设备巡检检查明细
+		{
+		    "path" : "pages/electromechanicalMaintenance/equipmentInspection/checkDetail/checkDetail",
+		    "style" : {}
+		},
+		// 备件管理
+		{
+		    "path" : "pages/electromechanicalMaintenance/sparePartsManagement/sparePartsManagement",
+		    "style" : {}
+		},
+		// 废件入库
+		{
+		    "path" : "pages/electromechanicalMaintenance/wasteRecover/wasteRecover",
+		    "style" : {}
+		},
+		// 废件入库编辑页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/wasteRecover/editWr/editWr",
+		    "style" : {}
+		},
+		// 废件入库添加页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/wasteRecover/addWr/addWr",
+		    "style" : {}
+		},
+		// 废件入库详情页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/wasteRecover/wrDetail/wrDetail",
+		    "style" : {}
+		},
+		// 备件管理编辑页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/sparePartsManagement/editSm/editSm",
+		    "style" : {}
+		},
+		// 备件管理详情页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/sparePartsManagement/smDetail/smDetail",
+		    "style" : {}
+		},
+		// 备件管理申请明细
+		{
+		    "path" : "pages/electromechanicalMaintenance/sparePartsManagement/applyDetail/applyDetail",
+		    "style" : {}
+		},
+		// 备件管理添加页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/sparePartsManagement/addSm/addSm",
+		    "style" : {}
+		},
+		//任务派发
+		{
+		    "path" : "pages/electromechanicalMaintenance/assginTask/assginTask",
+		    "style" : {}
+		},
+		// 
+		{
+		    "path" : "pages/electromechanicalMaintenance/assginTask/startAssgin/startAssgin",
+		    "style" : {}
+		},
+		// 派发单详情页
+		{
+		    "path" : "pages/electromechanicalMaintenance/assginTask/taskOrderDetail",
+		    "style" : {}
+		},
+		
+		// 故障报修
+		{
+		    "path" : "pages/electromechanicalMaintenance/faultRepair/faultRepair",
+		    "style" : {}
+		},
+		//添加故障报修页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/faultRepair/addGzbx/addGzbx",
+		    "style" : {}
+		},
+		
+		// 故障报修编辑页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/faultRepair/faultRepaireEdit/faultRepaireEdit",
+		    "style" : {}
+		},
+		// 故障报修详情页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/faultRepair/faultDetail/faultDetail",
+		    "style" : {}
+		},
+		// 维修任务单
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceTaskSheet/maintenanceTaskSheet",
+		    "style" : {}
+		},
+		// 维修任务单勾选添加到维修登记模块
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceTaskSheet/addModule/addmaintenanceRegistration",
+		    "style" : {}
+		},
+		//维修任务单勾选添加到备件领用模块
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceTaskSheet/addModule/addsparePartsManagement",
+		    "style" : {}
+		},
+		//维修任务单勾选添加到废件入库申请模块
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceTaskSheet/addModule/addwasteRecover",
+		    "style" : {}
+		},
+		//维修任务单勾选添加到维修费用结算模块
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceTaskSheet/addModule/addmaintenanceCosts",
+		    "style" : {}
+		},
+		//维修任务单勾选添加到维修验收模块
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceTaskSheet/addModule/addmaintenanceAcceptance",
+		    "style" : {}
+		},
+		// 维修登记
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceRegistration/maintenanceRegistration",
+		    "style" : {}
+		},
+		// 维修登记编辑页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceRegistration/maintenanceRegistrationEdit/maintenanceRegistrationEdit",
+		    "style" : {}
+		},
+		// 维修登记详情页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceRegistration/mrDetail/mrDetail",
+		    "style" : {}
+		},
+		//添加维修登记页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceRegistration/addWxdj/addWxdj",
+		    "style" : {}
+		},
+		//维修验收
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceAcceptance/maintenanceAcceptance",
+		    "style" : {}
+		},
+		// 维修验收编辑页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceAcceptance/mAEdit/mAEdit",
+		    "style" : {}
+		},
+		// 维修验收详情页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceAcceptance/maDetail/maDetail",
+		    "style" : {}
+		},
+		//添加维修验收页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceAcceptance/addWxys/addWxys",
+		    "style" : {}
+		},
+		//维修费用
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceCosts/maintenanceCosts",
+		    "style" : {}
+		},
+		// 维修费用编辑页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceCosts/wxfyEdit/wxfyEdit",
+		    "style" : {}
+		},
+		// 维修费用详情页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceCosts/wxfyDetail/wxfyDetail",
+		    "style" : {}
+		},
+		//添加维修验费用页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceCosts/addWxfy/addWxfy",
+		    "style" : {}
+		},
+		//添加维修费用页面
+		{
+		    "path" : "pages/electromechanicalMaintenance/maintenanceCosts/addWxfy/addWxfy",
+		    "style" : {}
+		}
+		
+		
+	
+    ],
+    "globalStyle" : {
+        "navigationStyle" : "custom",
+		"navigationBarBackgroundColor": "#f5f7fa",
+		"navigationBarTextStyle": "black",
+		"backgroundColor": "#f5f7fa",
+		"backgroundColorTop": "#f5f7fa"
+// 		"app-plus": {
+// 			"titleNView": {
+// 				"backgroundColor": "#f5f7fa"
+// 			}
+// 		}
+    }
+}
